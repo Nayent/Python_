@@ -1,0 +1,3 @@
+cinta = "Fedo!!!"
+
+print(cinta)

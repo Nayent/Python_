@@ -1,0 +1,76 @@
+Int - Inteiro
+Float - Ponto Flutuante
+Bool - Booleanos
+Str - String
+
+Ordem de Precedência:
+1) () 
+2) ** (Exponenciação); pow(x,y) (Exponenciação);
+3) * (multiplicação); / (divisão); // (divisão por inteiro); % (resto da divisão)
+4) + (soma); - (Subtração)
+
+
+Funções:
+def variavelAqui (Parametros):
+
+
+Vetores:
+vet=(1,2,3) 		(tuple, não se pode alterar)
+vet=[1,2,3] 		(Lista, pode se alterar)
+vet=range(10) 		(vetor de tamanho 10)
+vet=[] 			(Lista sem tamanho especificado)
+vet=list(range(4,11))	(Cria lista de tamanho 7)
+vet=list()		(Cria lista sem tamanho especifico)
+
+vet.append('Top')       (Cria um novo elemento no final da lista)
+vet.insert(0,'Top')     (Cria um novo elemento na posição escolhida na função)
+del vet[3]              (deleta o elemento da posição desejada)
+vet.pop(3)   	        (deleta o elemento da posição desejada)
+vet.remove('')          (deleta o elemento desejado)
+vet.pop()               (Deleta o ultimo elemento)
+vet.sort()              (Ordena os valores em ordem crescente)
+vet.sort(reverse=True)  (Ordena os valores em ordem decrescente)
+vet.clear()   		(limpa os valores do vetor)
+vet.count()   		(Conta a quantidade de vezes em que o elemento desejado repete)
+vet.reverse() 		(inverte a lista)
+
+len(vet) 		(Mostra o tamanho da lista)
+
+if 'Top' in vet:
+vet.remove('top')     	(Remove os elementos 'top' da lista)
+
+gg.append(vet[:])   	(Copia uma lista em outra)
+.upper()       		(Para deixar tudo em maiusculo)
+
+
+print(f'O valor resultante é: {valor:.2f}')   ->  Mostra apenas duas casas após a virgula
+
+
+
+Criar uma matriz nula de tamanho definido pelo usuario:
+lin=int(input("Tamanho de linhas da matriz: "))
+col=int(input("Tamanho de colunas da matriz: "))
+mat=[[0 for x in range(col)] for y in range(lin)]
+
+
+
+Dicionario:
+dic=dict() or dic={}
+print(dict.values())  	(Mostra o que esta dentro do dicionario)
+print(dict.keys())	(Mostra o nome da posição do dicionario)
+print(dict.items())	(Mostra tanto o nome quanto o que esta dentro do dic)
+
+
+
+Cores:
+Style:			Text:			Back:
+0 -> Normal		30 -> Branco         <- 40
+1 -> ...		31 -> Vermelho       <- 41	
+4 -> Sublinhado		32 -> Verde	     <- 42
+7 -> Invertido		33 -> Amarelo	     <- 43
+			34 -> Azul	     <- 44
+			35 -> Violeta	     <- 45
+			36 -> Azul claro     <- 46
+			37 -> Cinza          <- 47
+
+
